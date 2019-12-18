@@ -1,4 +1,4 @@
 FROM java:8
 COPY . .
-CMD ["javac","Solution.java"]
+RUN ["javac","Solution.java"]
 ENTRYPOINT ["java", "Solution"]
